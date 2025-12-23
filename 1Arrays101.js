@@ -1,9 +1,6 @@
 // Creating an empty array
 const myArray = [];
 
-// Creating an array with initial values
-const colours = ["red", "green", "blue"];
-
 myArray.push("apple");  // Adds "apple" to the end of the array
 myArray.push("banana"); // Adds "banana" to the end 
 console.log(myArray);   // Output: ["apple", "banana"]
@@ -19,6 +16,8 @@ const firstItem = myArray.shift(); // Removes and returns the first item ("grape
 console.log(firstItem);  // Output: "grape"
 console.log(myArray);   // Output: ["apple"]
 
+// Creating an array with initial values
+const colours = ["red", "green", "blue"];
 console.log(colours.indexOf("green")); // Returns the index of "green" (1)
 console.log(colours.includes("yellow")); // Checks if "yellow" exists (false)
 
